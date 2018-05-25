@@ -1,0 +1,23 @@
+<html>
+    <body>
+
+        <svg width="1000" height="250">
+
+            <rect width="150" height="150" fill="orange">
+
+                <animate attributeName="x" from="0" to="300" dur="3s" fill="remove" repeatCount="2"/> 
+
+            </rect>
+
+        </svg>
+        <canvas id = "canvas1">
+
+        </canvas>
+        <script>
+         var ct=document.getElementById("canvas1");
+         var ctx = ct.getContext("2d");
+         ctx.fillStyle="rgba(200,200,0,1)";
+         ctx.fillRect(0,0,100,100,stroke="red");
+        </script>
+        </body>
+        </html>
